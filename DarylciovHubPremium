@@ -29,9 +29,23 @@ local KAT = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local MM2 = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
+local Arsenal = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local BloxHunt = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
 local PleaseSelectYourGame = Instance.new("TextLabel")
 local Close_2 = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
+local Universal = Instance.new("TextButton")
+local Universals = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local OwlHub = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local CloseUniversal = Instance.new("TextButton")
+local Aimlock = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
 
 --Properties:
 
@@ -43,7 +57,6 @@ KeyThing.Parent = ScreenGui
 KeyThing.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
 KeyThing.Position = UDim2.new(0.342105269, 0, 0.397027612, 0)
 KeyThing.Size = UDim2.new(0, 287, 0, 150)
-KeyThing.Draggable = true
 
 UICorner.Parent = KeyThing
 
@@ -55,7 +68,6 @@ TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "Darylciov Hub"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
-TextLabel.Draggable = true
 
 UICorner_2.Parent = TextLabel
 
@@ -68,7 +80,6 @@ TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = "                                Premium"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel_2.TextSize = 14.000
-TextLabel_2.Draggable = true
 
 UICorner_3.Parent = TextLabel_2
 
@@ -145,7 +156,6 @@ UPText.Font = Enum.Font.SourceSans
 UPText.Text = "Darylciov Hub"
 UPText.TextColor3 = Color3.fromRGB(255, 255, 255)
 UPText.TextSize = 14.000
-UPText.Draggable = true
 
 UICorner_7.Parent = UPText
 
@@ -159,7 +169,6 @@ Premium.Font = Enum.Font.SourceSans
 Premium.Text = "                                Premium"
 Premium.TextColor3 = Color3.fromRGB(255, 255, 0)
 Premium.TextSize = 14.000
-Premium.Draggable = true
 
 UICorner_8.Parent = Premium
 
@@ -197,7 +206,7 @@ MM2.Name = "MM2"
 MM2.Parent = Games
 MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MM2.BackgroundTransparency = 1.000
-MM2.Position = UDim2.new(0.147909969, 0, 0.0854922235, 0)
+MM2.Position = UDim2.new(0.147909969, 0, 0.0777202025, 0)
 MM2.Size = UDim2.new(0, 200, 0, 22)
 MM2.Font = Enum.Font.SourceSans
 MM2.Text = "Murder Mystery 2"
@@ -208,6 +217,38 @@ MM2.MouseButton1Down:connect(function()
 end)
 
 UICorner_10.Parent = MM2
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Games
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.BackgroundTransparency = 1.000
+Arsenal.Position = UDim2.new(0.147909969, 0, 0.134715021, 0)
+Arsenal.Size = UDim2.new(0, 200, 0, 22)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.TextSize = 14.000
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))() 
+end)
+
+UICorner_11.Parent = Arsenal
+
+BloxHunt.Name = "BloxHunt"
+BloxHunt.Parent = Games
+BloxHunt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxHunt.BackgroundTransparency = 1.000
+BloxHunt.Position = UDim2.new(0.147909969, 0, 0.191709846, 0)
+BloxHunt.Size = UDim2.new(0, 200, 0, 22)
+BloxHunt.Font = Enum.Font.SourceSans
+BloxHunt.Text = "Blox Hunt"
+BloxHunt.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxHunt.TextSize = 14.000
+BloxHunt.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/DarylcioV/shit-scripts/main/bloxhunt'), true))() 
+end)
+
+UICorner_12.Parent = BloxHunt
 
 PleaseSelectYourGame.Name = "PleaseSelectYourGame"
 PleaseSelectYourGame.Parent = THESCRIPT
@@ -231,11 +272,90 @@ Close_2.Text = "Close GUI"
 Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close_2.TextSize = 14.000
 
-UICorner_11.Parent = Close_2
+UICorner_13.Parent = Close_2
+
+Universal.Name = "Universal"
+Universal.Parent = THESCRIPT
+Universal.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+Universal.BackgroundTransparency = 0.980
+Universal.Position = UDim2.new(0.832861125, 0, 0.105837651, 0)
+Universal.Size = UDim2.new(0, 58, 0, 28)
+Universal.Font = Enum.Font.SourceSans
+Universal.Text = "Universal"
+Universal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Universal.TextSize = 14.000
+
+Universals.Name = "Universals"
+Universals.Parent = Universal
+Universals.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Universals.Position = UDim2.new(1.2758621, 0, -0.714285731, 0)
+Universals.Size = UDim2.new(0, 109, 0, 192)
+Universals.Visible = false
+
+UICorner_14.Parent = Universals
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = Universals
+OwlHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OwlHub.BackgroundTransparency = 0.850
+OwlHub.Position = UDim2.new(0.0733944923, 0, 0.130208343, 0)
+OwlHub.Size = UDim2.new(0, 93, 0, 23)
+OwlHub.Font = Enum.Font.SourceSans
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextSize = 14.000
+OwlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://github.com/DarylcioV/shit-scripts/raw/main/owl_hub'), true))() 
+end)
+
+UICorner_15.Parent = OwlHub
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = Universals
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BackgroundTransparency = 0.850
+InfiniteYield.Position = UDim2.new(0.0733944923, 0, 0.286458343, 0)
+InfiniteYield.Size = UDim2.new(0, 93, 0, 23)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextSize = 14.000
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() 
+end)
+
+UICorner_16.Parent = InfiniteYield
+
+CloseUniversal.Name = "CloseUniversal"
+CloseUniversal.Parent = Universals
+CloseUniversal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseUniversal.BackgroundTransparency = 1.000
+CloseUniversal.Position = UDim2.new(0.0733944923, 0, 0.864583313, 0)
+CloseUniversal.Size = UDim2.new(0, 93, 0, 20)
+CloseUniversal.Font = Enum.Font.SourceSans
+CloseUniversal.Text = "Close"
+CloseUniversal.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseUniversal.TextSize = 14.000
+
+Aimlock.Name = "Aimlock"
+Aimlock.Parent = Universals
+Aimlock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Aimlock.BackgroundTransparency = 0.850
+Aimlock.Position = UDim2.new(0.0733944923, 0, 0.4375, 0)
+Aimlock.Size = UDim2.new(0, 93, 0, 23)
+Aimlock.Font = Enum.Font.SourceSans
+Aimlock.Text = "Aimlock"
+Aimlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aimlock.TextSize = 14.000
+Aimlock.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://github.com/DarylcioV/shit-scripts/raw/main/aimlock'), true))() 
+end)
+
+UICorner_17.Parent = Aimlock
 
 -- Scripts:
 
-local function PGQOH_fake_script() -- Login.LocalScript 
+local function IZGSBK_fake_script() -- Login.LocalScript 
 	local script = Instance.new('LocalScript', Login)
 
 	local key = script.Parent.Parent.key
@@ -257,8 +377,8 @@ local function PGQOH_fake_script() -- Login.LocalScript
 	end)
 	
 end
-coroutine.wrap(PGQOH_fake_script)()
-local function DKMV_fake_script() -- Close.LocalScript 
+coroutine.wrap(IZGSBK_fake_script)()
+local function CFKM_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local frame = script.Parent
@@ -267,8 +387,8 @@ local function DKMV_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(DKMV_fake_script)()
-local function FVEOKU_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(CFKM_fake_script)()
+local function XQRMBX_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	local frame = script.Parent
@@ -277,4 +397,14 @@ local function FVEOKU_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(FVEOKU_fake_script)()
+coroutine.wrap(XQRMBX_fake_script)()
+local function MFOLX_fake_script() -- CloseUniversal.LocalScript 
+	local script = Instance.new('LocalScript', CloseUniversal)
+
+	local frame = script.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(MFOLX_fake_script)()
