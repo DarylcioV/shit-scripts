@@ -1,0 +1,209 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local KeyThing = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local Line = Instance.new("Frame")
+local Login = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local key = Instance.new("TextBox")
+local THESCRIPT = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local UPText = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local Premium = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local Line_2 = Instance.new("Frame")
+local Games = Instance.new("ScrollingFrame")
+local KAT = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local PleaseSelectYourGame = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+KeyThing.Name = "KeyThing"
+KeyThing.Parent = ScreenGui
+KeyThing.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+KeyThing.Position = UDim2.new(0.342105269, 0, 0.397027612, 0)
+KeyThing.Size = UDim2.new(0, 287, 0, 150)
+KeyThing.Draggable = true
+
+UICorner.Parent = KeyThing
+
+TextLabel.Parent = KeyThing
+TextLabel.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 233, 0, 20)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Darylciov Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+UICorner_2.Parent = TextLabel
+
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.526132405, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 54, 0, 20)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "                                Premium"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 0)
+TextLabel_2.TextSize = 14.000
+
+UICorner_3.Parent = TextLabel_2
+
+TextLabel_3.Parent = KeyThing
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.010
+TextLabel_3.Position = UDim2.new(0.153310105, 0, 0.181102365, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 26)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Please Insert your Key!"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 23.000
+
+Line.Name = "Line"
+Line.Parent = KeyThing
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.Position = UDim2.new(0, 0, 0.156025797, 0)
+Line.Size = UDim2.new(0, 286, 0, 0)
+
+Login.Name = "Login"
+Login.Parent = KeyThing
+Login.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Login.BackgroundTransparency = 0.400
+Login.Position = UDim2.new(0.324041784, 0, 0.748661399, 0)
+Login.Size = UDim2.new(0, 101, 0, 27)
+Login.Font = Enum.Font.SourceSans
+Login.Text = "Login"
+Login.TextColor3 = Color3.fromRGB(255, 255, 255)
+Login.TextSize = 26.000
+Login.TextWrapped = true
+
+UICorner_4.Parent = Login
+
+key.Name = "key"
+key.Parent = KeyThing
+key.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+key.BackgroundTransparency = 1.000
+key.Position = UDim2.new(0.0766550526, 0, 0.466666669, 0)
+key.Size = UDim2.new(0, 241, 0, 29)
+key.Font = Enum.Font.SourceSans
+key.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+key.Text = "Insert your Key here!"
+key.TextColor3 = Color3.fromRGB(255, 255, 255)
+key.TextSize = 17.000
+
+THESCRIPT.Name = "THESCRIPT"
+THESCRIPT.Parent = ScreenGui
+THESCRIPT.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+THESCRIPT.Position = UDim2.new(0.31250003, 0, 0.350318491, 0)
+THESCRIPT.Size = UDim2.new(0, 353, 0, 193)
+THESCRIPT.Visible = false
+THESCRIPT.Draggable = true
+
+UICorner_5.Parent = THESCRIPT
+
+UPText.Name = "UPText"
+UPText.Parent = THESCRIPT
+UPText.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+UPText.BackgroundTransparency = 1.000
+UPText.Size = UDim2.new(0, 300, 0, 20)
+UPText.Font = Enum.Font.SourceSans
+UPText.Text = "Darylciov Hub"
+UPText.TextColor3 = Color3.fromRGB(255, 255, 255)
+UPText.TextSize = 14.000
+
+UICorner_6.Parent = UPText
+
+Premium.Name = "Premium"
+Premium.Parent = UPText
+Premium.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Premium.BackgroundTransparency = 1.000
+Premium.Position = UDim2.new(0.526132405, 0, 0, 0)
+Premium.Size = UDim2.new(0, 54, 0, 20)
+Premium.Font = Enum.Font.SourceSans
+Premium.Text = "                                Premium"
+Premium.TextColor3 = Color3.fromRGB(255, 255, 0)
+Premium.TextSize = 14.000
+
+UICorner_7.Parent = Premium
+
+Line_2.Name = "Line"
+Line_2.Parent = UPText
+Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_2.Position = UDim2.new(0, 0, 1, 0)
+Line_2.Size = UDim2.new(0, 352, 0, 0)
+
+Games.Name = "Games"
+Games.Parent = THESCRIPT
+Games.Active = true
+Games.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Games.BackgroundTransparency = 1.000
+Games.Position = UDim2.new(0.0708215311, 0, 0.367875636, 0)
+Games.Size = UDim2.new(0, 311, 0, 107)
+
+KAT.Name = "KAT!"
+KAT.Parent = Games
+KAT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KAT.BackgroundTransparency = 1.000
+KAT.Position = UDim2.new(0.147909969, 0, 0.0207253881, 0)
+KAT.Size = UDim2.new(0, 200, 0, 22)
+KAT.Font = Enum.Font.SourceSans
+KAT.Text = "KAT! | Knife Ability Test"
+KAT.TextColor3 = Color3.fromRGB(255, 255, 255)
+KAT.TextSize = 14.000
+KAT.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))() 
+end)
+
+UICorner_8.Parent = KAT
+
+PleaseSelectYourGame.Name = "PleaseSelectYourGame"
+PleaseSelectYourGame.Parent = THESCRIPT
+PleaseSelectYourGame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PleaseSelectYourGame.BackgroundTransparency = 1.000
+PleaseSelectYourGame.Position = UDim2.new(0.215297446, 0, 0.170984462, 0)
+PleaseSelectYourGame.Size = UDim2.new(0, 189, 0, 31)
+PleaseSelectYourGame.Font = Enum.Font.SourceSans
+PleaseSelectYourGame.Text = "Please select your Game!"
+PleaseSelectYourGame.TextColor3 = Color3.fromRGB(255, 255, 255)
+PleaseSelectYourGame.TextSize = 20.000
+
+-- Scripts:
+
+local function AAAKQ_fake_script() -- Login.LocalScript 
+	local script = Instance.new('LocalScript', Login)
+
+	local key = script.Parent.Parent.key
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if key.Text == "MW4FV0M9UGHVERTVG9KHU0RV" then -- Make the "Key" whatever you wish.
+			script.Parent.Parent:TweenPosition(UDim2.new(0.383,0,-0.9,0), "Out", "Quad", 1, true)
+			script.Parent.Parent.Parent.THESCRIPT.Visible = true
+			wait(5)
+			script.Parent.Parent:Destroy() -- Destroys the GUI after a set time
+			print("Closed KeyThing Frame due to Valid Key!")
+		elseif -- Tweening | If you want it to do a different tween just change the "Quad" to another tween animation
+			key.Text == "" then
+			key.Text = "" else
+			key.Text = "Incorrect, try again."
+			wait(1)
+			key.Text = ""
+		end
+	end)
+	
+end
+coroutine.wrap(AAAKQ_fake_script)()
