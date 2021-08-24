@@ -15,19 +15,23 @@ local Line = Instance.new("Frame")
 local Login = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local key = Instance.new("TextBox")
-local THESCRIPT = Instance.new("Frame")
+local Close = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
-local UPText = Instance.new("TextLabel")
+local THESCRIPT = Instance.new("Frame")
 local UICorner_6 = Instance.new("UICorner")
-local Premium = Instance.new("TextLabel")
+local UPText = Instance.new("TextLabel")
 local UICorner_7 = Instance.new("UICorner")
+local Premium = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
 local Line_2 = Instance.new("Frame")
 local Games = Instance.new("ScrollingFrame")
 local KAT = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local MM2 = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
+local MM2 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
 local PleaseSelectYourGame = Instance.new("TextLabel")
+local Close_2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
 
 --Properties:
 
@@ -110,15 +114,27 @@ key.Text = "Insert your Key here!"
 key.TextColor3 = Color3.fromRGB(255, 255, 255)
 key.TextSize = 17.000
 
+Close.Name = "Close"
+Close.Parent = KeyThing
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.811846673, 0, -0.0133333337, 0)
+Close.Size = UDim2.new(0, 54, 0, 23)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close GUI"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 14.000
+
+UICorner_5.Parent = Close
+
 THESCRIPT.Name = "THESCRIPT"
 THESCRIPT.Parent = ScreenGui
 THESCRIPT.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
 THESCRIPT.Position = UDim2.new(0.31250003, 0, 0.350318491, 0)
 THESCRIPT.Size = UDim2.new(0, 353, 0, 193)
 THESCRIPT.Visible = false
-THESCRIPT.Draggable = true
 
-UICorner_5.Parent = THESCRIPT
+UICorner_6.Parent = THESCRIPT
 
 UPText.Name = "UPText"
 UPText.Parent = THESCRIPT
@@ -131,7 +147,7 @@ UPText.TextColor3 = Color3.fromRGB(255, 255, 255)
 UPText.TextSize = 14.000
 UPText.Draggable = true
 
-UICorner_6.Parent = UPText
+UICorner_7.Parent = UPText
 
 Premium.Name = "Premium"
 Premium.Parent = UPText
@@ -145,7 +161,7 @@ Premium.TextColor3 = Color3.fromRGB(255, 255, 0)
 Premium.TextSize = 14.000
 Premium.Draggable = true
 
-UICorner_7.Parent = Premium
+UICorner_8.Parent = Premium
 
 Line_2.Name = "Line"
 Line_2.Parent = UPText
@@ -175,7 +191,7 @@ KAT.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))() 
 end)
 
-UICorner_8.Parent = KAT
+UICorner_9.Parent = KAT
 
 MM2.Name = "MM2"
 MM2.Parent = Games
@@ -191,7 +207,7 @@ MM2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
 end)
 
-UICorner_9.Parent = MM2
+UICorner_10.Parent = MM2
 
 PleaseSelectYourGame.Name = "PleaseSelectYourGame"
 PleaseSelectYourGame.Parent = THESCRIPT
@@ -204,9 +220,22 @@ PleaseSelectYourGame.Text = "Please select your Game!"
 PleaseSelectYourGame.TextColor3 = Color3.fromRGB(255, 255, 255)
 PleaseSelectYourGame.TextSize = 20.000
 
+Close_2.Name = "Close"
+Close_2.Parent = THESCRIPT
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.BackgroundTransparency = 1.000
+Close_2.Position = UDim2.new(0.811846673, 0, -0.0133333337, 0)
+Close_2.Size = UDim2.new(0, 54, 0, 23)
+Close_2.Font = Enum.Font.SourceSans
+Close_2.Text = "Close GUI"
+Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.TextSize = 14.000
+
+UICorner_11.Parent = Close_2
+
 -- Scripts:
 
-local function VNWTIY_fake_script() -- Login.LocalScript 
+local function PGQOH_fake_script() -- Login.LocalScript 
 	local script = Instance.new('LocalScript', Login)
 
 	local key = script.Parent.Parent.key
@@ -228,4 +257,24 @@ local function VNWTIY_fake_script() -- Login.LocalScript
 	end)
 	
 end
-coroutine.wrap(VNWTIY_fake_script)()
+coroutine.wrap(PGQOH_fake_script)()
+local function DKMV_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local frame = script.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(DKMV_fake_script)()
+local function FVEOKU_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	local frame = script.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(FVEOKU_fake_script)()
