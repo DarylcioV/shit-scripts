@@ -49,7 +49,7 @@ OwlHub.Text = "Owl Hub"
 OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
 OwlHub.TextSize = 23.000
 OwlHub.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/DarylcioV/shit-scripts/main/owl_hub%22),true))()
+    loadstring(game:HttpGet(('https://github.com/DarylcioV/shit-scripts/raw/main/owl_hub'),true))()
 end)
 
 UICorner_3.Parent = OwlHub
@@ -76,7 +76,7 @@ Aimlock.Text = "Aimlock"
 Aimlock.TextColor3 = Color3.fromRGB(255, 255, 255)
 Aimlock.TextSize = 23.000
 Aimlock.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/DarylcioV/shit-scripts/main/aimlock%22),true))()
+    loadstring(game:HttpGet(('https://github.com/DarylcioV/shit-scripts/raw/main/aimlock'),true))()
 end)
 
 
@@ -92,7 +92,7 @@ InifniteYield.Text = "Infinite Yield"
 InifniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
 InifniteYield.TextSize = 17.000
 InifniteYield.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source%22),true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 UICorner_6.Parent = InifniteYield
