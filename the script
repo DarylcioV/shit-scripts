@@ -1,0 +1,111 @@
+-- THIZZ SCRIPTT
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local OwlHub = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Aimlock = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local InifniteYield = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.355263144, 0, 0.350318462, 0)
+Frame.Size = UDim2.new(0, 319, 0, 195)
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
+TextLabel.Size = UDim2.new(0, 319, 0, 27)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "THIZZ SCRIPTT"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 29.000
+
+UICorner_2.Parent = TextLabel
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = Frame
+OwlHub.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
+OwlHub.Position = UDim2.new(0.0344827585, 0, 0.210256413, 0)
+OwlHub.Size = UDim2.new(0, 92, 0, 27)
+OwlHub.Font = Enum.Font.Cartoon
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextSize = 23.000
+OwlHub.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/DarylcioV/shit-scripts/main/owl_hub%22),true))()
+end)
+
+UICorner_3.Parent = OwlHub
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.Position = UDim2.new(0.902821302, 0, 0, 0)
+Close.Size = UDim2.new(0, 31, 0, 27)
+Close.Font = Enum.Font.Cartoon
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 26.000
+
+UICorner_4.Parent = Close
+
+Aimlock.Name = "Aimlock"
+Aimlock.Parent = Frame
+Aimlock.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
+Aimlock.Position = UDim2.new(0.354231954, 0, 0.210256413, 0)
+Aimlock.Size = UDim2.new(0, 92, 0, 27)
+Aimlock.Font = Enum.Font.Cartoon
+Aimlock.Text = "Aimlock"
+Aimlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aimlock.TextSize = 23.000
+Aimlock.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/DarylcioV/shit-scripts/main/aimlock%22),true))()
+end)
+
+
+UICorner_5.Parent = Aimlock
+
+InifniteYield.Name = "InifniteYield"
+InifniteYield.Parent = Frame
+InifniteYield.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
+InifniteYield.Position = UDim2.new(0.683385611, 0, 0.210256413, 0)
+InifniteYield.Size = UDim2.new(0, 92, 0, 27)
+InifniteYield.Font = Enum.Font.Cartoon
+InifniteYield.Text = "Infinite Yield"
+InifniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InifniteYield.TextSize = 17.000
+InifniteYield.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source%22),true))()
+end)
+
+UICorner_6.Parent = InifniteYield
+
+-- Scripts:
+
+local function WZNNSOC_fake_script() -- Close.LocalScript 
+    local script = Instance.new('LocalScript', Close)
+
+    local frame = script.Parent
+
+    script.Parent.MouseButton1Click:Connect(function()
+        script.Parent.Parent.Visible = false
+    end)
+end
+coroutine.wrap(WZNNSOC_fake_script)()
