@@ -248,6 +248,7 @@ BloxHunt.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/DarylcioV/shit-scripts/main/bloxhunt'), true))() 
 end)
 
+
 UICorner_12.Parent = BloxHunt
 
 PleaseSelectYourGame.Name = "PleaseSelectYourGame"
@@ -324,6 +325,7 @@ InfiniteYield.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() 
 end)
 
+
 UICorner_16.Parent = InfiniteYield
 
 CloseUniversal.Name = "CloseUniversal"
@@ -355,7 +357,7 @@ UICorner_17.Parent = Aimlock
 
 -- Scripts:
 
-local function IZGSBK_fake_script() -- Login.LocalScript 
+local function VKEILPJ_fake_script() -- Login.LocalScript 
 	local script = Instance.new('LocalScript', Login)
 
 	local key = script.Parent.Parent.key
@@ -377,8 +379,8 @@ local function IZGSBK_fake_script() -- Login.LocalScript
 	end)
 	
 end
-coroutine.wrap(IZGSBK_fake_script)()
-local function CFKM_fake_script() -- Close.LocalScript 
+coroutine.wrap(VKEILPJ_fake_script)()
+local function CFIZDNZ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local frame = script.Parent
@@ -387,8 +389,8 @@ local function CFKM_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(CFKM_fake_script)()
-local function XQRMBX_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(CFIZDNZ_fake_script)()
+local function YZLZ_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	local frame = script.Parent
@@ -397,8 +399,8 @@ local function XQRMBX_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(XQRMBX_fake_script)()
-local function MFOLX_fake_script() -- CloseUniversal.LocalScript 
+coroutine.wrap(YZLZ_fake_script)()
+local function XFVHZ_fake_script() -- CloseUniversal.LocalScript 
 	local script = Instance.new('LocalScript', CloseUniversal)
 
 	local frame = script.Parent
@@ -407,4 +409,14 @@ local function MFOLX_fake_script() -- CloseUniversal.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(MFOLX_fake_script)()
+coroutine.wrap(XFVHZ_fake_script)()
+local function QWQPOR_fake_script() -- Universal.LocalScript 
+	local script = Instance.new('LocalScript', Universal)
+
+	local frame = script.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Universals.Visible = true
+	end)
+end
+coroutine.wrap(QWQPOR_fake_script)()
