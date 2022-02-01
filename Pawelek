@@ -1,0 +1,468 @@
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Scripts = Instance.new("ScrollingFrame")
+local UICorner_2 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local DaHood = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local PetSimX = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local PhantomForces = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Description = Instance.new("TextLabel")
+local UNI = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Exit = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UniFrame = Instance.new("Frame")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UICorner_8 = Instance.new("UICorner")
+local ExitUni = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Title2 = Instance.new("TextLabel")
+local UniS = Instance.new("ScrollingFrame")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local DexExplorer = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local AimlockCTRL = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local AimlockE = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local FPSBoost = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local HitboxEX = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+MainFrame.BackgroundTransparency = 0.100
+MainFrame.Position = UDim2.new(0.335030556, 0, 0.228714526, 0)
+MainFrame.Size = UDim2.new(0, 301, 0, 301)
+
+UIAspectRatioConstraint.Parent = MainFrame
+
+UICorner.Parent = MainFrame
+
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Size = UDim2.new(0, 301, 0, 27)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "PawełSploit"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Scripts.Name = "Scripts"
+Scripts.Parent = MainFrame
+Scripts.Active = true
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BackgroundTransparency = 1.000
+Scripts.Position = UDim2.new(0, 23, 0, 51)
+Scripts.Size = UDim2.new(0.846005559, 0, 0.661129653, 0)
+
+UICorner_2.Parent = Scripts
+
+UIAspectRatioConstraint_2.Parent = Scripts
+UIAspectRatioConstraint_2.AspectRatio = 1.275
+
+DaHood.Name = "DaHood"
+DaHood.Parent = Scripts
+DaHood.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+DaHood.BackgroundTransparency = 0.300
+DaHood.Position = UDim2.new(0.10250438, 0, 0.0116279069, 0)
+DaHood.Size = UDim2.new(0, 200, 0, 21)
+DaHood.Font = Enum.Font.SourceSans
+DaHood.Text = "Da Hood"
+DaHood.TextColor3 = Color3.fromRGB(255, 255, 255)
+DaHood.TextScaled = true
+DaHood.TextSize = 14.000
+DaHood.TextWrapped = true
+DaHood.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+UICorner_3.Parent = DaHood
+
+PetSimX.Name = "PetSimX"
+PetSimX.Parent = Scripts
+PetSimX.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+PetSimX.BackgroundTransparency = 0.300
+PetSimX.Position = UDim2.new(0.10250438, 0, 0.0631229207, 0)
+PetSimX.Size = UDim2.new(0, 200, 0, 21)
+PetSimX.Font = Enum.Font.SourceSans
+PetSimX.Text = "Pet Simulator X"
+PetSimX.TextColor3 = Color3.fromRGB(255, 255, 255)
+PetSimX.TextScaled = true
+PetSimX.TextSize = 14.000
+PetSimX.TextWrapped = true
+PetSimX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+end)
+
+UICorner_4.Parent = PetSimX
+
+PhantomForces.Name = "PhantomForces"
+PhantomForces.Parent = Scripts
+PhantomForces.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+PhantomForces.BackgroundTransparency = 0.300
+PhantomForces.Position = UDim2.new(0.10250438, 0, 0.116279066, 0)
+PhantomForces.Size = UDim2.new(0, 200, 0, 21)
+PhantomForces.Font = Enum.Font.SourceSans
+PhantomForces.Text = "Phantom Forces (Wymaga klucza)"
+PhantomForces.TextColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.TextScaled = true
+PhantomForces.TextSize = 14.000
+PhantomForces.TextWrapped = true
+PhantomForces.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+UICorner_5.Parent = PhantomForces
+
+Description.Name = "Description"
+Description.Parent = MainFrame
+Description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Description.BackgroundTransparency = 1.000
+Description.Position = UDim2.new(0, 0, 0.0897009969, 0)
+Description.Size = UDim2.new(0, 301, 0, 20)
+Description.Font = Enum.Font.SourceSans
+Description.Text = "Wybierz gre ziomek :)"
+Description.TextColor3 = Color3.fromRGB(255, 255, 255)
+Description.TextSize = 14.000
+Description.TextWrapped = true
+
+UNI.Name = "UNI"
+UNI.Parent = MainFrame
+UNI.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+UNI.BackgroundTransparency = 0.900
+UNI.Position = UDim2.new(0.166112959, 0, 0.923588037, 0)
+UNI.Size = UDim2.new(0, 200, 0, 23)
+UNI.Font = Enum.Font.SourceSans
+UNI.Text = "Uniwersalki"
+UNI.TextColor3 = Color3.fromRGB(255, 255, 255)
+UNI.TextScaled = true
+UNI.TextSize = 14.000
+UNI.TextWrapped = true
+
+UICorner_6.Parent = UNI
+
+Exit.Name = "Exit"
+Exit.Parent = MainFrame
+Exit.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Exit.Position = UDim2.new(0.900332272, 0, 0, 0)
+Exit.Size = UDim2.new(0, 30, 0, 27)
+Exit.Font = Enum.Font.SourceSans
+Exit.Text = "X"
+Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+
+UICorner_7.Parent = Exit
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.166112959, 0, 0.873754144, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 15)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Skrypty Uniwersalne (do każdej gry)"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+UniFrame.Name = "UniFrame"
+UniFrame.Parent = ScreenGui
+UniFrame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+UniFrame.BackgroundTransparency = 0.100
+UniFrame.Position = UDim2.new(0, 718, 0, 137)
+UniFrame.Size = UDim2.new(0.209775969, 0, 0.50250417, 0)
+UniFrame.Visible = false
+
+UIAspectRatioConstraint_3.Parent = UniFrame
+UIAspectRatioConstraint_3.AspectRatio = 0.684
+
+UICorner_8.Parent = UniFrame
+
+ExitUni.Name = "ExitUni"
+ExitUni.Parent = UniFrame
+ExitUni.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+ExitUni.Position = UDim2.new(0.85178858, 0, 0, 0)
+ExitUni.Size = UDim2.new(0, 30, 0, 27)
+ExitUni.Font = Enum.Font.SourceSans
+ExitUni.Text = "X"
+ExitUni.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExitUni.TextScaled = true
+ExitUni.TextSize = 14.000
+ExitUni.TextWrapped = true
+
+UICorner_9.Parent = ExitUni
+
+Title2.Name = "Title2"
+Title2.Parent = UniFrame
+Title2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title2.BackgroundTransparency = 1.000
+Title2.Position = UDim2.new(0.184466019, 0, 0, 0)
+Title2.Size = UDim2.new(0, 123, 0, 27)
+Title2.Font = Enum.Font.SourceSans
+Title2.Text = "Uniwersalki"
+Title2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title2.TextScaled = true
+Title2.TextSize = 14.000
+Title2.TextWrapped = true
+
+UniS.Name = "UniS"
+UniS.Parent = UniFrame
+UniS.Active = true
+UniS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UniS.BackgroundTransparency = 1.000
+UniS.Position = UDim2.new(0.0776699036, 0, 0.162790701, 0)
+UniS.Size = UDim2.new(0, 176, 0, 235)
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = UniS
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+InfiniteYield.BackgroundTransparency = 0.300
+InfiniteYield.Position = UDim2.new(0.0965909064, 0, 0.0141089968, 0)
+InfiniteYield.Size = UDim2.new(0, 134, 0, 21)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 14.000
+InfiniteYield.TextWrapped = true
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_10.Parent = InfiniteYield
+
+DexExplorer.Name = "DexExplorer"
+DexExplorer.Parent = UniS
+DexExplorer.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+DexExplorer.BackgroundTransparency = 0.300
+DexExplorer.Position = UDim2.new(0.0965909064, 0, 0.0656040162, 0)
+DexExplorer.Size = UDim2.new(0, 134, 0, 21)
+DexExplorer.Font = Enum.Font.SourceSans
+DexExplorer.Text = "DexExplorer"
+DexExplorer.TextColor3 = Color3.fromRGB(255, 255, 255)
+DexExplorer.TextScaled = true
+DexExplorer.TextSize = 14.000
+DexExplorer.TextWrapped = true
+DexExplorer.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex Explorer V2.txt"))()
+end)
+
+UICorner_11.Parent = DexExplorer
+
+AimlockCTRL.Name = "AimlockCTRL"
+AimlockCTRL.Parent = UniS
+AimlockCTRL.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+AimlockCTRL.BackgroundTransparency = 0.300
+AimlockCTRL.Position = UDim2.new(0.0965909064, 0, 0.12042129, 0)
+AimlockCTRL.Size = UDim2.new(0, 134, 0, 21)
+AimlockCTRL.Font = Enum.Font.SourceSans
+AimlockCTRL.Text = "Aimlock (CTRL)"
+AimlockCTRL.TextColor3 = Color3.fromRGB(255, 255, 255)
+AimlockCTRL.TextScaled = true
+AimlockCTRL.TextSize = 14.000
+AimlockCTRL.TextWrapped = true
+AimlockCTRL.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DarylcioV/shit-scripts/main/aimlockCTRL"))()
+end)
+
+UICorner_12.Parent = AimlockCTRL
+
+AimlockE.Name = "AimlockE"
+AimlockE.Parent = UniS
+AimlockE.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+AimlockE.BackgroundTransparency = 0.300
+AimlockE.Position = UDim2.new(0.0965909064, 0, 0.176899701, 0)
+AimlockE.Size = UDim2.new(0, 134, 0, 21)
+AimlockE.Font = Enum.Font.SourceSans
+AimlockE.Text = "Aimlock (E)"
+AimlockE.TextColor3 = Color3.fromRGB(255, 255, 255)
+AimlockE.TextScaled = true
+AimlockE.TextSize = 14.000
+AimlockE.TextWrapped = true
+AimlockE.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/cHKVsTg8"))()
+end)
+
+UICorner_13.Parent = AimlockE
+
+FPSBoost.Name = "FPSBoost"
+FPSBoost.Parent = UniS
+FPSBoost.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+FPSBoost.BackgroundTransparency = 0.300
+FPSBoost.Position = UDim2.new(0.0965909064, 0, 0.235039234, 0)
+FPSBoost.Size = UDim2.new(0, 134, 0, 21)
+FPSBoost.Font = Enum.Font.SourceSans
+FPSBoost.Text = "FPS Booster"
+FPSBoost.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPSBoost.TextScaled = true
+FPSBoost.TextSize = 14.000
+FPSBoost.TextWrapped = true
+FPSBoost.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DarylcioV/shit-scripts/main/FPSBooster"))()
+end)
+
+UICorner_14.Parent = FPSBoost
+
+HitboxEX.Name = "HitboxEX"
+HitboxEX.Parent = UniS
+HitboxEX.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+HitboxEX.BackgroundTransparency = 0.300
+HitboxEX.Position = UDim2.new(0.0965909064, 0, 0.293178767, 0)
+HitboxEX.Size = UDim2.new(0, 134, 0, 21)
+HitboxEX.Font = Enum.Font.SourceSans
+HitboxEX.Text = "Hitbox Expander"
+HitboxEX.TextColor3 = Color3.fromRGB(255, 255, 255)
+HitboxEX.TextScaled = true
+HitboxEX.TextSize = 14.000
+HitboxEX.TextWrapped = true
+HitboxEX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
+end)
+
+UICorner_15.Parent = HitboxEX
+
+-- Scripts:
+
+local function KQXG_fake_script() -- UNI.LocalScript 
+	local script = Instance.new('LocalScript', UNI)
+
+	local frame = script.Parent.Parent.Parent.UniFrame
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(KQXG_fake_script)()
+local function DVAOW_fake_script() -- Exit.Exit_LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(DVAOW_fake_script)()
+local function YFYXN_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			if gui.Visible then
+				update(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(YFYXN_fake_script)()
+local function DBFUYTJ_fake_script() -- ExitUni.Exit_LocalScript 
+	local script = Instance.new('LocalScript', ExitUni)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(DBFUYTJ_fake_script)()
+local function FLFKR_fake_script() -- UniFrame.LocalScript 
+	local script = Instance.new('LocalScript', UniFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			if gui.Visible then
+				update(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(FLFKR_fake_script)()
